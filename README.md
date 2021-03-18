@@ -5,8 +5,9 @@ Calculates average ping metric for different digitalocean's datacenters
 
 ```curl
 curl -s https://raw.githubusercontent.com/BrahimAfa/better-digital-ocean-datacenter/master/test-datacenter.sh > test-datacenter.sh
-```bash
+```
 
+```bash
 $ chmod +x test-datacenter.sh
 $ ./test-datacenter.sh <ping_count>
 ```
